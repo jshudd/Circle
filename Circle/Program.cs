@@ -14,6 +14,8 @@ namespace Circle
 
             var area = pi * (radius ^ 2);
 
+            //$ gives string interpolation
+
             Console.WriteLine($"The area of the circle is {area}");
         }
     }
